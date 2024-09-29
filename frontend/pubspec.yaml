@@ -1,0 +1,44 @@
+name: Adda
+description: "Real Time Chat Application"
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_contacts: '^1.1.9+2'
+  http: ^0.13.3
+  image_picker: ^1.1.2
+  lottie: 3.0.0
+  provider: ^6.1.2
+  
+
+dev_dependencies:
+  flutter_lints: ^5.0.0
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  assets:
+    - assets/Splash Screen.json
+
+  uses-material-design: true
+
+flutter_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/Logo.png"
+  min_sdk_android: 21 # android min sdk min:16, default 21
+  web:
+    generate: true
+    image_path: "assets/web_icon.png"
+    background_color: "#ffffff"
+    theme_color: "#ffffff"
+  windows:
+    generate: true
+    image_path: "assets/windows_icon.png"
+    icon_size: 48 # min:48, max:256, default: 48

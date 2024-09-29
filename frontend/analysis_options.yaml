@@ -1,0 +1,48 @@
+analyzer:
+  exclude:
+    - "**/*.g.dart"
+    - "**/*.freezed.dart"
+    - "**/*.gen.dart"
+    - "**/*.gr.dart"
+    - "**/*.t.dart"
+
+linter:
+  rules:
+    - avoid_empty_else
+    - avoid_field_initializers_in_const_classes
+    - avoid_returning_this
+    - avoid_unused_constructor_parameters
+    - curly_braces_in_flow_control_structures
+    - empty_catches
+    - empty_statements
+    - library_names
+    - library_prefixes
+    - no_adjacent_strings_in_list
+    - no_duplicate_case_values
+    - non_constant_identifier_names
+    - only_throw_errors
+    - overridden_fields
+    - prefer_adjacent_string_concatenation
+    - prefer_collection_literals
+    - prefer_conditional_assignment
+    - prefer_constructors_over_static_methods
+    - prefer_final_locals
+    - prefer_for_elements_to_map_fromIterable
+    - prefer_generic_function_type_aliases
+    - prefer_if_elements_to_conditional_expressions
+    - prefer_initializing_formals
+    - prefer_interpolation_to_compose_strings
+    - prefer_iterable_whereType
+    - prefer_void_to_null
+    - recursive_getters
+    - sort_pub_dependencies
+    - type_init_formals
+    - unawaited_futures
+    - unnecessary_brace_in_string_interps
+    - unnecessary_const
+    - unnecessary_new
+    - unnecessary_overrides
+    - unnecessary_string_interpolations
+    - use_function_type_syntax_for_parameters
+    - use_raw_strings
+    - use_rethrow_when_possible
